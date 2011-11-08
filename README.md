@@ -28,13 +28,15 @@ A trigger on Mobile Device will associate it with the current user.
 
 2. In Salesforce, define a Push Notifications Settings custom object with the name of your iOS app and the API Key and Master Secret from Urban Airship.
 
-3. When a push notification is to be sent from Force.com:
+3. When a push notification is to be sent from Force.com:  
+
 ```java
 PushNotificationInterface pushNotificationService = new UrbanAirship('Case Memo');
 pushNotificationService.sendPushNotification(deviceToken, message, badgeCount, userInfoJSON);
 ```
 
-To avoid governor limits on web callouts, a batched queue of notifications can be sent:
+To avoid governor limits on web callouts, a batched queue of notifications can be sent:  
+
 ```java
 pushNotificationService.queuePushNotification(deviceToken, message, badgeCount, userInfoJSON); 
 pushNotificationService.sendQueuedNotification();
