@@ -47,6 +47,7 @@
     </fields>
     <fields>
         <fullName>User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
         <label>User</label>
         <referenceTo>User</referenceTo>
