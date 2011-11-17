@@ -1,7 +1,9 @@
 About
 -----
 
-A Force.com wrapper for the [Urban Airship Push API](http://urbanairship.com/docs/#push) that supports device registration, single & batch push notifications, and storage of mobile device tokens.      
+A Force.com wrapper for the [Urban Airship Push API](http://urbanairship.com/docs/#push) that supports device registration, single & batch push notifications, and storage of mobile device tokens.  
+
+The open source [CaseMemo](https://github.com/mbotos/CaseMemo) iPad app provides an example of its use, and is described in this video of Matthew Botos's Dreamforce '11 talk, [Beyond the Force.com Toolkit for iOS](http://www.youtube.com/watch?v=PntLl4mWBX4). Other apps using the library include Mavens Consulting's [Second Opinion](mavens.force.com/second_opinion#mobile).    
 
 Quick Start
 -----------
